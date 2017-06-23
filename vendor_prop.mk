@@ -19,6 +19,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.fluence.speaker=true \
     persist.vendor.audio.fluence.voicecall=true \
     persist.vendor.audio.fluence.voicerec=false \
+    ro.config.media_vol_steps=25 \
     persist.vendor.audio.hw.binder.size_kbyte=1024 \
     persist.vendor.audio.speaker.prot.enable=false \
     ro.af.client_heap_size_kbyte=7168 \
