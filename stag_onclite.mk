@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some Stag stuff.
 $(call inherit-product, vendor/stag/main.mk)
 
+# Inherit from custom vendor
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 # Bootanimation res
 TARGET_SCREEN_RES := 720
 
