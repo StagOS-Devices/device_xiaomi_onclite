@@ -97,6 +97,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.protected_contents=true \
+    debug.sf.early_app_phase_offset_ns=1500000 \
+    debug.sf.early_gl_app_phase_offset_ns=15000000 \
+    debug.sf.early_gl_phase_offset_ns=3000000 \
+    debug.sf.early_phase_offset_ns=1500000 \
     debug.egl.hw=0 \
     debug.gralloc.enable_fb_ubwc=1 \
     debug.sf.hw=0 \
