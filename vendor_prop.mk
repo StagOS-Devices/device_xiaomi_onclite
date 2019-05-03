@@ -96,6 +96,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.protected_contents=true \
     debug.egl.hw=0 \
     debug.gralloc.enable_fb_ubwc=1 \
     debug.sf.hw=0 \
