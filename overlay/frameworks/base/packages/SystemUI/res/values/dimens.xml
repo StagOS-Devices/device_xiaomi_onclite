@@ -20,5 +20,7 @@
     <dimen name="rounded_corner_content_padding">20px</dimen>
     <dimen name="status_bar_extra_padding">15px</dimen>
     <dimen name="status_bar_padding_top">12px</dimen>
+    <dimen name="status_bar_padding_start">15dp</dimen>
+    <dimen name="status_bar_padding_end">15dp</dimen>
     <dimen name="system_icons_keyguard_padding_end">15dp</dimen>
 </resources>
