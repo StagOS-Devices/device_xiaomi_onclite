@@ -259,3 +259,7 @@ ro.debuggable=1
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.emmc_size=16GB \
     ro.cutoff_voltage_mv=3400
+
+# Zygote preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
