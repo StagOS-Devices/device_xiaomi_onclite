@@ -29,7 +29,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=290
+    ro.sf.lcd_density=288
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1520
