@@ -20,6 +20,7 @@ $(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Bootanimation res
 TARGET_SCREEN_RES := 720
+TARGET_EXCLUDE_BOOTANIMATION := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := stag_onclite

@@ -34,6 +34,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1520
 TARGET_SCREEN_WIDTH := 720
+PRODUCT_COPY_FILES += $(LOCAL_PATH)/prebuilts/bootanimation.zip:system/media/bootanimation.zip
 
 # Permissions
 PRODUCT_COPY_FILES += \
