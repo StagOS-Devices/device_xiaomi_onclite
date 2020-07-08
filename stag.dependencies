@@ -12,9 +12,9 @@
    "remote": "stagos-devices"
  },
  {
-   "repository": "AbhinandAK350/MiuiCamera",
-   "target_path": "vendor/MiuiCamera",
+   "repository": "AbhinandAK350/ANXCamera",
+   "target_path": "vendor/ANXCamera",
    "branch": "onclite",
-   "remote": "github"
+   "remote": "gitlab"
  }
 ]
