@@ -12,7 +12,7 @@
    "remote": "stagos-devices"
  },
  {
-   "repository": "AbhinandAK350/ANXCamera",
+   "repository": "AbhinandAK350/vendor_ANXCamera",
    "target_path": "vendor/ANXCamera",
    "branch": "onclite",
    "remote": "gitlab"
