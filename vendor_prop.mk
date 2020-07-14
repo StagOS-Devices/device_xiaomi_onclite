@@ -116,6 +116,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.svi.config_path=/system/etc/display/SVIConfig.xml \
     vendor.gralloc.enable_fb_ubwc=1
 
+# Dolby
+vendor.audio.dolby.ds2.enabled=true
+
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dpm.feature=1
